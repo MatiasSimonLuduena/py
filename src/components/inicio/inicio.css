@@ -1,5 +1,5 @@
 main {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,9 +8,9 @@ main {
 }
 
 main h1 {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 100;
-    margin: 12px 0;
+    margin: 15px 0;
 }
 
 main .container_form {
@@ -21,10 +21,10 @@ main .container_form {
 
 main .container_form input {
     margin-bottom: 8px;
-    padding: 8px;
+    padding: 12px 10px;
     border: 1px solid black;
     border-color: transparent;
-    background-color: #e6e6e6;
+    background-color: #f8f8f8;
 }
 
 main .container_form input:focus {
@@ -38,11 +38,11 @@ main .container_form button {
     background-color: #5a7fac;
     color: #fff;
     letter-spacing: .5px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 main p {
     color: gray;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: .3px;
 }
